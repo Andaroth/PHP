@@ -13,12 +13,7 @@ if (isset($_POST["child"]) && isset($_POST["instit"]) && isset($_POST["reason"])
         <title>Générateur de mots d'excuses en PHP</title>
         <meta charset="utf-8" />
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower%7CPacifico" rel="stylesheet"> 
-        <style>
-            * { font-family: Indie Flower; text-align: center; }
-            #motif { display: block; max-width: 200px; margin: 0 auto; text-align: left; }
-            h1, h2 { font-family: Pacifico; }
-            #output { text-align: left; border: 1px dashed grey; max-width: 50%; margin: 50px auto; padding: 25px;}
-        </style>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <h1>Générateur de sorrynotsorry</h1>

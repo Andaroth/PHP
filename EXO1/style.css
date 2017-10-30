@@ -1,0 +1,20 @@
+* { 
+    font-family: Indie Flower; 
+    text-align: center; 
+}
+#motif { 
+    display: block; 
+    max-width: 200px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+h1, h2 { 
+    font-family: Pacifico; 
+}
+#output { 
+    text-align: left; 
+    border: 1px dashed grey; 
+    max-width: 50%; 
+    margin: 50px auto; 
+    padding: 25px; 
+}
