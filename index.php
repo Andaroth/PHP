@@ -91,7 +91,7 @@ if (isset($_POST["child"]) && isset($_POST["instit"]) && isset($_POST["reason"])
                             break;
                     }
                     echo "<h2>Votre motif d'excuse est le suivant</h2>";
-                    echo "Bonjour Monsieur/Madame <strong>".$instit."</strong>, <br/>Notre sale gamin de m*rde nommé <strong>".$child."</strong> sera absent ce ".$date." de votre classe qui poue les pieds ! <br/>";
+                    echo "Bonjour Monsieur/Madame <strong>".$instit."</strong>, <br/>Notre sale gamin de m*rde nommé <strong>".$child."</strong> sera absent ce ".$date." de votre classe qui pue les pieds ! <br/>";
                     echo "Le motif est très simple : <strong>".$motif."</strong><br/>";
                     echo "Merci de votre compréhension, <br/>Les parents de ".$child;
                 }
