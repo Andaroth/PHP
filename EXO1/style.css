@@ -11,6 +11,10 @@
 h1, h2 { 
     font-family: Pacifico; 
 }
+input { 
+    text-align: left;
+    padding-left: 5px;
+}
 #output { 
     text-align: left; 
     border: 1px dashed grey; 
