@@ -1,9 +1,9 @@
 <?php 
 if (isset($_POST["child"]) && isset($_POST["instit"]) && isset($_POST["reason"])) { // Si le formulaire A été envoyé
     // Récupérer les valeurs
-    $child = $_POST["child"]; 
-    $instit = $_POST["instit"]; 
-    $motif = $_POST["reason"]; 
+    $child = addslashes(htmlspecialchars($_POST["child"])); // Addslashes et Htmlspecialchars pour éviter les injections
+    $instit = addslashes(htmlspecialchars($_POST["instit"])); 
+    $motif = addslashes(htmlspecialchars($_POST["reason"])); 
 } else { // Sinon...
     $child = ""; $instit = ""; $motif = ""; // ... ne pas attribuer de valeurs aux paramètres
 } ?>
