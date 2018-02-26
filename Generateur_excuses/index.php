@@ -1,4 +1,4 @@
-<?php 
+<!DOCTYPE html><?php 
 if (isset($_POST["child"]) && isset($_POST["instit"]) && isset($_POST["reason"])) { // Si le formulaire A été envoyé
     // Récupérer les valeurs
     $child = addslashes(htmlspecialchars($_POST["child"])); // Addslashes et Htmlspecialchars pour éviter les injections
@@ -7,7 +7,6 @@ if (isset($_POST["child"]) && isset($_POST["instit"]) && isset($_POST["reason"])
 } else { // Sinon...
     $child = ""; $instit = ""; $motif = ""; // ... ne pas attribuer de valeurs aux paramètres
 } ?>
-<!DOCTYPE html>
 <html>
     <head>
         <title>Générateur de mots d'excuses en PHP</title>
